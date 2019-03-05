@@ -1,0 +1,13 @@
+# A conda env for testing SZIP with a conda HDF package. Install with
+#
+#   $ conda env create --file=environment.yml
+#
+name: szip
+channels:
+  - default
+dependencies:
+- python==3.6
+- hdf5==1.8.14
+- gcc_linux-64
+- gxx_linux-64
+- gfortran_linux-64
